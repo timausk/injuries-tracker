@@ -1,0 +1,38 @@
+$cellSpacing:  0.5rem 0.625rem 0.625rem;
+$colorSecondary: #f1f1f1;
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0;
+
+  &__head {
+    background: #f8f8f8;
+    color: #0a0a0a;
+    border: 1px solid $colorSecondary;
+
+    tr {
+      background: transparent;
+    }
+
+    th {
+      padding: $cellSpacing;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  &__body {
+    border: 1px solid $colorSecondary;
+
+    tr:nth-child(even) {
+      border-bottom: 0;
+      background-color: $colorSecondary;
+    }
+
+    td {
+      padding: $cellSpacing;
+    }
+  }
+}
