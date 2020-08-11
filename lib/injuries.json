@@ -1,0 +1,26 @@
+{
+  "injuries":
+  [
+    {
+      "player": "Oscar Schönfelder",
+      "injuryType": "Ankle injury",
+      "injuryDate": "31.07.2020",
+      "predicted": "21",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Ilia Gruev",
+      "injuryType": "Ankle injury",
+      "injuryDate": "07.08.2020",
+      "predicted": "21",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Niklas Moisander",
+      "injuryType": "Calf injury",
+      "injuryDate": "08.08.2020",
+      "predicted": "14",
+      "status": "Ruled Out"
+    }
+  ]
+}

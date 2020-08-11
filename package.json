@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "render": "node ./lib/render.js",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build"
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/timausk/injuries-tracker#readme",
   "devDependencies": {
+    "nunjucks": "^3.2.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
   }

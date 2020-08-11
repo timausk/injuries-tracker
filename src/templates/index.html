@@ -24,25 +24,13 @@
   </tr>
   </thead>
   <tbody class="table__body">
-    
-    <tr>Oscar Schönfelder</tr>
-    <tr>Ankle injury</tr>
-    <tr>31.07.2020</tr>
+    {% for entry in entries %}
+    <tr>{{ entry.player }}</tr>
+    <tr>{{ entry.injuryType }}</tr>
+    <tr>{{ entry.injuryDate }}</tr>
     <tr></tr>
-    <tr>Ruled Out</tr>
-    
-    <tr>Ilia Gruev</tr>
-    <tr>Ankle injury</tr>
-    <tr>07.08.2020</tr>
-    <tr></tr>
-    <tr>Ruled Out</tr>
-    
-    <tr>Niklas Moisander</tr>
-    <tr>Calf injury</tr>
-    <tr>08.08.2020</tr>
-    <tr></tr>
-    <tr>Ruled Out</tr>
-    
+    <tr>{{ entry.status }}</tr>
+    {% endfor %}
   </tbody>
 </table>
 
