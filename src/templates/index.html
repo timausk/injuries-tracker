@@ -25,11 +25,13 @@
   </thead>
   <tbody class="table__body">
     {% for entry in entries %}
-    <tr>{{ entry.player }}</tr>
-    <tr>{{ entry.injuryType }}</tr>
-    <tr>{{ entry.injuryDate }}</tr>
-    <tr></tr>
-    <tr>{{ entry.status }}</tr>
+    <tr>
+      <td>{{ entry.player }}</td>
+      <td>{{ entry.injuryType }}</td>
+      <td>{{ entry.injuryDate }}</td>
+      <td></td>
+      <td>{{ entry.status }}</td>
+    </tr>
     {% endfor %}
   </tbody>
 </table>
