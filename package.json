@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "render": "node ./lib/render.js",
-    "dev": "parcel src/index.html",
+    "dev": "npm run render && parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build"
   },
   "repository": {
