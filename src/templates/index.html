@@ -24,7 +24,7 @@
   </tr>
   </thead>
   <tbody class="table__body">
-    {% for entry in entries %}
+    {%- for entry in entries %}
     <tr>
       <td>{{ entry.player }}</td>
       <td>{{ entry.injuryType }}</td>
@@ -32,7 +32,7 @@
       <td></td>
       <td>{{ entry.status }}</td>
     </tr>
-    {% endfor %}
+    {%- endfor %}
   </tbody>
 </table>
 
