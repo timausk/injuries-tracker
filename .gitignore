@@ -2,3 +2,5 @@ build
 dist
 .cache
 node_modules
+
+src/index.html
