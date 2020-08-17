@@ -11,11 +11,17 @@ Clone repository and run `npm i` to install all dependencies
 # start the local dev server
 npm run dev
 
+# start dev server + file watcher
+npm run dev --all
+
 # build for production with minification
 npm run build
 
 # update index template with data from the injuries.json
 npm run render
+
+# watches file change which are not covered by parcel dev server
+npm run watcher
 ```
 
 ## Contributing
