@@ -5,8 +5,9 @@
       "player": "Oscar Schönfelder",
       "injuryType": "Ankle injury",
       "injuryDate": "31.07.2020",
+      "returnDate": "21.08.2020",
       "predicted": "21",
-      "status": "Ruled Out"
+      "status": "Recovered"
     },
     {
       "player": "Ilia Gruev",
@@ -19,7 +20,22 @@
       "player": "Niklas Moisander",
       "injuryType": "Calf injury",
       "injuryDate": "08.08.2020",
+      "returnDate": "21.08.2020",
       "predicted": "14",
+      "status": "Recovered"
+    },
+    {
+      "player": "Davy Klaassen",
+      "injuryType": "Knee injury",
+      "injuryDate": "22.08.2020",
+      "predicted": "28",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Josh Sargent",
+      "injuryType": "Ankle injury",
+      "injuryDate": "22.08.2020",
+      "predicted": "21",
       "status": "Ruled Out"
     }
   ]
