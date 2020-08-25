@@ -28,7 +28,7 @@
       "player": "Davy Klaassen",
       "injuryType": "Knee injury",
       "injuryDate": "22.08.2020",
-      "predicted": "28",
+      "predicted": "14",
       "status": "Ruled Out"
     },
     {
@@ -36,6 +36,20 @@
       "injuryType": "Ankle injury",
       "injuryDate": "22.08.2020",
       "predicted": "21",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Stefanos Kapino",
+      "injuryType": "Ankle injury (ligament strain left)",
+      "injuryDate": "23.08.2020",
+      "predicted": "14",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Milos Veljkovic",
+      "injuryType": "Muscular problems (thigh)",
+      "injuryDate": "23.08.2020",
+      "predicted": "7",
       "status": "Ruled Out"
     }
   ]
