@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/timausk/injuries-tracker#readme",
   "devDependencies": {
+    "eslint": "^7.7.0",
     "nodemon": "^2.0.4",
     "npm-run-all": "^4.1.5",
     "nunjucks": "^3.2.2",
