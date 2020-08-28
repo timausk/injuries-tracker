@@ -24,15 +24,18 @@
   </tr>
   </thead>
   <tbody class="table__body">
+    {%- set cyc = cycler("-odd", "-even") %}
     {%- for entry in entries %}
-    <tr>
-      <td>{{ entry.player }}</td>
-      <td>{{ entry.injuryType }}</td>
-      <td>{{ entry.injuryDate }}</td>
-      <td>{{ entry.predicted }}</td>
-      <td>{{ entry.total }}</td>
-      <td>{{ entry.status }}</td>
-    </tr>
+      {%- set modifier = cyc.next() %}
+      <tr>
+        <td>{{ entry.player }}</td>
+        <td>{{ entry.injuryType }}</td>
+        <td>{{ entry.injuryDate }}</td>
+        <td>{{ entry.predicted }}</td>
+        <td
+          {% if not entry.total %}class="skeleton__cell {{ modifier }}"{% endif %}>{{ entry.total }}</td>
+        <td>{{ entry.status }}</td>
+      </tr>
     {%- endfor %}
   </tbody>
 </table>
