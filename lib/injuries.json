@@ -11,10 +11,11 @@
     },
     {
       "player": "Ilia Gruev",
-      "injuryType": "Ankle injury",
+      "injuryType": "Ankle injury (contusion)",
       "injuryDate": "07.08.2020",
-      "predicted": "21",
-      "status": "Ruled Out"
+      "predicted": "7",
+      "returnDate": "18.08.2020",
+      "status": "Recovered"
     },
     {
       "player": "Niklas Moisander",
@@ -33,10 +34,11 @@
     },
     {
       "player": "Josh Sargent",
-      "injuryType": "Ankle injury",
+      "injuryType": "Ankle injury (contusion)",
       "injuryDate": "22.08.2020",
-      "predicted": "21",
-      "status": "Ruled Out"
+      "returnDate": "28.08.2020",
+      "predicted": "7",
+      "status": "Recovered"
     },
     {
       "player": "Stefanos Kapino",
@@ -49,6 +51,13 @@
       "player": "Milos Veljkovic",
       "injuryType": "Muscular problems (thigh)",
       "injuryDate": "23.08.2020",
+      "predicted": "7",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Ömer Toprak",
+      "injuryType": "Ankle injury (contusion)",
+      "injuryDate": "26.08.2020",
       "predicted": "7",
       "status": "Ruled Out"
     }
