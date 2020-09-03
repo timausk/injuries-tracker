@@ -44,22 +44,25 @@
       "player": "Stefanos Kapino",
       "injuryType": "Ankle injury (ligament strain left)",
       "injuryDate": "23.08.2020",
+      "returnDate": "02.09.2020",
       "predicted": "14",
-      "status": "Ruled Out"
+      "status": "Recovered"
     },
     {
       "player": "Milos Veljkovic",
       "injuryType": "Muscular problems (thigh)",
       "injuryDate": "23.08.2020",
+      "returnDate": "02.09.2020",
       "predicted": "7",
-      "status": "Ruled Out"
+      "status": "Recovered"
     },
     {
       "player": "Ömer Toprak",
       "injuryType": "Ankle injury (contusion)",
       "injuryDate": "26.08.2020",
+      "returnDate": "03.09.2020",
       "predicted": "7",
-      "status": "Ruled Out"
+      "status": "Recovered"
     }
   ]
 }
