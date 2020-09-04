@@ -63,6 +63,21 @@
       "returnDate": "03.09.2020",
       "predicted": "7",
       "status": "Recovered"
+    },
+    {
+      "player": "Kevin Möhwald",
+      "injuryType": "Ankle injury (left)",
+      "injuryDate": "28.08.2020",
+      "returnDate": "04.09.2020",
+      "predicted": "7",
+      "status": "Recovered"
+    },
+    {
+      "player": "Milot Rashica",
+      "injuryType": "Knee injury",
+      "injuryDate": "03.09.2020",
+      "predicted": "7",
+      "status": "Ruled Out"
     }
   ]
 }
