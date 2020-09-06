@@ -18,6 +18,7 @@
     <th>Player</th>
     <th>Type of injury</th>
     <th>Date of injury</th>
+    <th>Date of return</th>
     <th>Predicted</th>
     <th>Total</th>
     <th>Status</th>
@@ -31,6 +32,7 @@
         <td>{{ entry.player }}</td>
         <td>{{ entry.injuryType }}</td>
         <td>{{ entry.injuryDate }}</td>
+        <td>{% if entry.returnDate }}{{ entry.returnDate }}{% endif %}</td>
         <td>{{ entry.predicted }}</td>
         <td
           {% if not entry.total %}class="skeleton__cell {{ modifier }}"{% endif %}>{{ entry.total }}</td>
