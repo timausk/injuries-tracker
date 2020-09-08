@@ -28,14 +28,13 @@
     {%- set cyc = cycler("-odd", "-even") %}
     {%- for entry in entries %}
       {%- set modifier = cyc.next() %}
-      <tr>
+      <tr {% if entry.injuryDateMs %}class="js-row-injured" data-ms="{{ entry.injuryDateMs }}"{% endif %}>
         <td>{{ entry.player }}</td>
         <td>{{ entry.injuryType }}</td>
         <td>{{ entry.injuryDate }}</td>
-        <td>{% if entry.returnDate }}{{ entry.returnDate }}{% endif %}</td>
+        <td>{% if entry.returnDate %}{{ entry.returnDate }}{% endif %}</td>
         <td>{{ entry.predicted }}</td>
-        <td
-          {% if not entry.total %}class="skeleton__cell {{ modifier }}"{% endif %}>{{ entry.total }}</td>
+        <td {% if not entry.total %}class="js-cell-total skeleton__cell {{ modifier }}"{% endif %}>{{ entry.total }}</td>
         <td>{{ entry.status }}</td>
       </tr>
     {%- endfor %}
