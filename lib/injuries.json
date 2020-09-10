@@ -3,15 +3,15 @@
   [
     {
       "player": "Oscar Schönfelder",
-      "injuryType": "Ankle injury",
+      "injuryType": "Ankle",
       "injuryDate": "31.07.2020",
-      "returnDate": "21.08.2020",
+      "returnDate": "09.09.2020",
       "predicted": "21",
       "status": "Recovered"
     },
     {
       "player": "Ilia Gruev",
-      "injuryType": "Ankle injury (contusion)",
+      "injuryType": "Ankle (contusion)",
       "injuryDate": "07.08.2020",
       "predicted": "7",
       "returnDate": "18.08.2020",
@@ -19,7 +19,7 @@
     },
     {
       "player": "Niklas Moisander",
-      "injuryType": "Calf injury",
+      "injuryType": "Calf",
       "injuryDate": "08.08.2020",
       "returnDate": "21.08.2020",
       "predicted": "14",
@@ -27,14 +27,14 @@
     },
     {
       "player": "Davy Klaassen",
-      "injuryType": "Knee injury",
+      "injuryType": "Knee",
       "injuryDate": "22.08.2020",
       "predicted": "14",
       "status": "Ruled Out"
     },
     {
       "player": "Josh Sargent",
-      "injuryType": "Ankle injury (contusion)",
+      "injuryType": "Ankle (contusion)",
       "injuryDate": "22.08.2020",
       "returnDate": "28.08.2020",
       "predicted": "7",
@@ -42,7 +42,7 @@
     },
     {
       "player": "Stefanos Kapino",
-      "injuryType": "Ankle injury (ligament strain left)",
+      "injuryType": "Ankle (ligament strain left)",
       "injuryDate": "23.08.2020",
       "returnDate": "02.09.2020",
       "predicted": "14",
@@ -58,7 +58,7 @@
     },
     {
       "player": "Ömer Toprak",
-      "injuryType": "Ankle injury (contusion)",
+      "injuryType": "Ankle (contusion)",
       "injuryDate": "26.08.2020",
       "returnDate": "03.09.2020",
       "predicted": "7",
@@ -66,7 +66,7 @@
     },
     {
       "player": "Kevin Möhwald",
-      "injuryType": "Ankle injury (left)",
+      "injuryType": "Ankle (left)",
       "injuryDate": "28.08.2020",
       "returnDate": "04.09.2020",
       "predicted": "7",
@@ -74,8 +74,15 @@
     },
     {
       "player": "Milot Rashica",
-      "injuryType": "Knee injury",
+      "injuryType": "Knee (contusion)",
       "injuryDate": "03.09.2020",
+      "predicted": "7",
+      "status": "Ruled Out"
+    },
+    {
+      "player": "Felix Agu",
+      "injuryType": "Lower leg (contusion)",
+      "injuryDate": "09.09.2020",
       "predicted": "7",
       "status": "Ruled Out"
     }
